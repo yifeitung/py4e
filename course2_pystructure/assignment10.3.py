@@ -30,7 +30,7 @@ lettersdict=dict()
 for line in handle:
     line=line.strip()
     line=line.lower()
-    # Remove punctuation and numbers in each line and set uppoer case into lower case
+    # Remove punctuation and numbers in each line and set upper case into lower case
     line=line.translate(str.maketrans('','',string.punctuation))
     line=line.translate(str.maketrans('','',string.digits))
     words=line.split()
@@ -62,5 +62,5 @@ e (12.702%),t(9.056%),a(8.167%),o(7.507%),i(6.966%)
 By using the sample file '3wishes.txt', the top five letter are: e,t,h,o,a
 By using the sample file '3gables.txt', the top five ltter are: e,t,o,a,i
 
-The article in '3gables.txt' is longer than the article in '3wishes.txt'. 
+The article in '3gables.txt' is longer than the article in '3wishes.txt'.
 '''
