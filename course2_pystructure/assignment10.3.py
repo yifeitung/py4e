@@ -60,7 +60,7 @@ From Wikipedia, we know that the top five letter in the English language are
 e (12.702%),t(9.056%),a(8.167%),o(7.507%),i(6.966%)
 
 By using the sample file '3wishes.txt', the top five letter are: e,t,h,o,a
-By using the sample file '3gables.txt', the top five ltter are: e,t,o,a,i
+By using the sample file '3gables.txt', the top five letter are: e,t,o,a,i
 
 The article in '3gables.txt' is longer than the article in '3wishes.txt'.
 '''
